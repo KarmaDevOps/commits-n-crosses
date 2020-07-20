@@ -6,16 +6,16 @@ Commits N Crosses
 	|---|---|---|
 	|   |   |   |
 	|---|---|---|
-	|   |   |   |
+	|   | X  |   |
 	|---|---|---|
 	|   |   |   |
 	|---|---|---|
 
 -------------
 
- Player X: [name]
+ Player X: [Test for G2]
  
- Player O: [name]
+ Player O: [Bob]
 
 -------------
 
@@ -44,7 +44,7 @@ Commits N Crosses
  To make the first move Player 1 should open README.md in a text editor, add the player names, make the first move, and save. Once the change is saved, Player 1 should stage it for committing, commit it, and push to the remote:	
 
     git add .
-    git commit -m "some witty comment"
+    git commit -m "some witty comment"l
     git push -u origin game1
 
  Enter password when prompted. If it's on the command line, there will be no output when you type, just hit enter once you've typed it.
@@ -67,7 +67,7 @@ Commits N Crosses
     git pull
 
  And using show to view the commit message
-
+k
     git show
     
  Reopen README.md and view their opponent's move, make their own move and save. Then the players should share the move by staging, comitting and pushing:
